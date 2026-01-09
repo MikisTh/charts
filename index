@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle de Estudos</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+    }
+    .chart-container {
+      width: 80%;
+      margin: 40px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>📚 Análise de Estudos</h2>
+
+<div class="chart-container">
+  <canvas id="horasEstudo"></canvas>
+</div>
+
+<div class="chart-container">
+  <canvas id="evolucao"></canvas>
+</div>
+
+<div class="chart-container">
+  <canvas id="meta"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
